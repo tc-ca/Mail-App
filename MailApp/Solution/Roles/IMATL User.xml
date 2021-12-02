@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Role id="{13b8257d-d110-ec11-b6e6-0022483d0e76}" name="IMATL User" isinherited="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsCustomizable>1</IsCustomizable>
+  <RolePrivileges>
+    <RolePrivilege name="prvAppendma_CourierRequest" level="Basic" />
+    <RolePrivilege name="prvAppendma_IncomingMail" level="Basic" />
+    <RolePrivilege name="prvAppendma_PackageTracking" level="Basic" />
+    <RolePrivilege name="prvAppendToma_CourierRequest" level="Basic" />
+    <RolePrivilege name="prvAppendToma_IncomingMail" level="Basic" />
+    <RolePrivilege name="prvAppendToma_PackageTracking" level="Basic" />
+    <RolePrivilege name="prvAssignma_CourierRequest" level="Basic" />
+    <RolePrivilege name="prvAssignma_IncomingMail" level="Basic" />
+    <RolePrivilege name="prvAssignma_PackageTracking" level="Basic" />
+    <RolePrivilege name="prvCreatema_CourierRequest" level="Basic" />
+    <RolePrivilege name="prvCreatema_IncomingMail" level="Basic" />
+    <RolePrivilege name="prvCreatema_PackageTracking" level="Basic" />
+    <RolePrivilege name="prvCreateSharePointData" level="Global" />
+    <RolePrivilege name="prvDeletema_CourierRequest" level="Basic" />
+    <RolePrivilege name="prvDeletema_IncomingMail" level="Basic" />
+    <RolePrivilege name="prvDeletema_PackageTracking" level="Basic" />
+    <RolePrivilege name="prvReadma_CourierRequest" level="Basic" />
+    <RolePrivilege name="prvReadma_IncomingMail" level="Basic" />
+    <RolePrivilege name="prvReadma_PackageTracking" level="Basic" />
+    <RolePrivilege name="prvReadPluginAssembly" level="Global" />
+    <RolePrivilege name="prvReadPluginType" level="Global" />
+    <RolePrivilege name="prvReadSdkMessage" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStep" level="Global" />
+    <RolePrivilege name="prvReadSdkMessageProcessingStepImage" level="Global" />
+    <RolePrivilege name="prvReadSharePointData" level="Global" />
+    <RolePrivilege name="prvReadSharePointDocument" level="Global" />
+    <RolePrivilege name="prvSharema_CourierRequest" level="Basic" />
+    <RolePrivilege name="prvSharema_IncomingMail" level="Basic" />
+    <RolePrivilege name="prvSharema_PackageTracking" level="Basic" />
+    <RolePrivilege name="prvWritema_CourierRequest" level="Basic" />
+    <RolePrivilege name="prvWritema_IncomingMail" level="Basic" />
+    <RolePrivilege name="prvWritema_PackageTracking" level="Basic" />
+    <RolePrivilege name="prvWriteSharePointData" level="Global" />
+  </RolePrivileges>
+</Role>

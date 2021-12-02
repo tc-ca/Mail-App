@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_ma_courierrequest" />
+  <EntityRelationship Name="business_unit_ma_incomingmail" />
+  <EntityRelationship Name="business_unit_ma_packagetracking" />
+  <EntityRelationship Name="lk_ma_courierrequest_createdby" />
+  <EntityRelationship Name="lk_ma_courierrequest_modifiedby" />
+  <EntityRelationship Name="lk_ma_incomingmail_createdby" />
+  <EntityRelationship Name="lk_ma_incomingmail_modifiedby" />
+  <EntityRelationship Name="lk_ma_packagetracking_createdby" />
+  <EntityRelationship Name="lk_ma_packagetracking_modifiedby" />
+  <EntityRelationship Name="ma_CourierRequest_InformationManagementAg" />
+  <EntityRelationship Name="ma_CourierRequest_Provider_Account" />
+  <EntityRelationship Name="ma_CourierRequest_Sender_SystemUser" />
+  <EntityRelationship Name="ma_IncomingMail_Addressee_SystemUser" />
+  <EntityRelationship Name="ma_IncomingMail_Provider_Account" />
+  <EntityRelationship Name="ma_PackageTracking_ma_CourierRequest_ma_C" />
+  <EntityRelationship Name="ma_PackageTracking_Provider_Account" />
+  <EntityRelationship Name="owner_ma_courierrequest" />
+  <EntityRelationship Name="owner_ma_incomingmail" />
+  <EntityRelationship Name="owner_ma_packagetracking" />
+  <EntityRelationship Name="team_ma_courierrequest" />
+  <EntityRelationship Name="team_ma_incomingmail" />
+  <EntityRelationship Name="team_ma_packagetracking" />
+  <EntityRelationship Name="user_ma_courierrequest" />
+  <EntityRelationship Name="user_ma_incomingmail" />
+  <EntityRelationship Name="user_ma_packagetracking" />
+</EntityRelationships>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>ma_InformationManagementAdmin</UniqueName>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="ma_InformationManagementAdmin" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="1" schemaName="ma_courierrequest" />
+    <AppModuleComponent type="60" id="{f97548f6-6127-4855-8a43-5413c266b8d6}" />
+    <AppModuleComponent type="26" id="{410f64bd-d316-47a0-bb52-21bd002e3754}" />
+    <AppModuleComponent type="26" id="{8f57ac50-67d3-eb11-bacc-000d3a0c9a07}" />
+    <AppModuleComponent type="1" schemaName="ma_incomingmail" />
+    <AppModuleComponent type="60" id="{0926d7b8-cde0-eb11-bacb-000d3ae85dc4}" />
+    <AppModuleComponent type="60" id="{52215c76-ae5d-40ae-8e7f-a7ac56f4a03f}" />
+    <AppModuleComponent type="26" id="{c58b6ceb-212a-4e9b-bc01-80d68d155fe4}" />
+    <AppModuleComponent type="26" id="{ee3cc38e-b2e4-4adb-9585-2825ac4fb626}" />
+    <AppModuleComponent type="26" id="{0856e4ee-cce0-eb11-bacb-000d3ae85dc4}" />
+    <AppModuleComponent type="26" id="{c8d3fcfe-d11b-ec11-b6e7-000d3ae9b4eb}" />
+    <AppModuleComponent type="1" schemaName="ma_packagetracking" />
+    <AppModuleComponent type="60" id="{8c70147e-819c-eb11-b1ac-000d3ae92be8}" />
+    <AppModuleComponent type="60" id="{7b3e91f7-d76b-4af0-90e2-f0828e4abb80}" />
+    <AppModuleComponent type="1" schemaName="systemuser" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{840e02fa-d310-ec11-b6e6-0022483d0e76}" />
+    <Role id="{13b8257d-d110-ec11-b6e6-0022483d0e76}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Information Management Admin" languagecode="1033" />
+    <LocalizedName description="Administration de la gestion de l'information " languagecode="1036" />
+  </LocalizedNames>
+</AppModule>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ImportExportXml version="9.2.21112.125" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>MailApp</UniqueName>
@@ -7,8 +7,8 @@
       <LocalizedName description="Appli de courrier " languagecode="1036" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.1</Version>
-    <Managed>1</Managed>
+    <Version>1.1.0.1</Version>
+    <Managed>2</Managed>
     <Publisher>
       <UniqueName>mailapppublisher</UniqueName>
       <LocalizedNames>
@@ -92,6 +92,7 @@
       <RootComponent type="9" schemaName="ma_typeofcourier" behavior="0" />
       <RootComponent type="9" schemaName="ra_status2" behavior="0" />
       <RootComponent type="20" id="{13b8257d-d110-ec11-b6e6-0022483d0e76}" behavior="0" />
+      <RootComponent type="20" id="{794cbcb4-7f53-ec11-8f8e-000d3ae9ac38}" behavior="0" />
       <RootComponent type="20" id="{840e02fa-d310-ec11-b6e6-0022483d0e76}" behavior="0" />
       <RootComponent type="29" id="{1faed17e-4bdf-eb11-bacb-000d3ae85dc4}" behavior="0" />
       <RootComponent type="60" id="{09cfb76e-64d3-eb11-bacc-000d3a0c9a07}" behavior="0" />

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ma_timeframe" localizedName="Time Frame" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Time Frame" languagecode="1033" />
+    <displayname description="Échéancier " languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="953960000">
+      <labels>
+        <label description="Next Day" languagecode="1033" />
+        <label description="Prochain Jour" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="953960001">
+      <labels>
+        <label description="2-3 Days" languagecode="1033" />
+        <label description="2-3 jours" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="953960002">
+      <labels>
+        <label description="Regular Mail" languagecode="1033" />
+        <label description="Courrier régulier" languagecode="1036" />
+      </labels>
+    </option>
+  </options>
+</optionset>

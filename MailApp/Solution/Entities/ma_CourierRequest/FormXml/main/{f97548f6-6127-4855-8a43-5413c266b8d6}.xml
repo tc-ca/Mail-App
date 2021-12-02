@@ -1,0 +1,641 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f97548f6-6127-4855-8a43-5413c266b8d6}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{b7e38084-d477-42fd-9ec4-58d3e0a0110a}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Généralités " languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{97f02c89-6bdf-452f-abfc-a4f4022f9e1a}" columns="11" name="tabGeneral">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Généralités " languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d2c827d2-05eb-49b7-98e9-b7291f7630aa}">
+                        <labels>
+                          <label description="Courier Id" languagecode="1033" />
+                          <label description="Identificateur de l'envoi par messagerie " languagecode="1036" />
+                        </labels>
+                        <control id="ma_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ma_name" />
+                      </cell>
+                      <cell id="{4a6e230f-2b78-4d49-bdd3-24d500a50617}" locklevel="0">
+                        <labels>
+                          <label description="Number of Pieces" languagecode="1033" />
+                          <label description="Nombre d'articles " languagecode="1036" />
+                        </labels>
+                        <control id="ma_numberofpieces" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_numberofpieces" disabled="false" uniqueid="{0b257b53-07a5-45b8-846b-10115c6dba1f}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fd1bbfdb-60d6-4c23-8353-250affbd13b1}" locklevel="0">
+                        <labels>
+                          <label description="Courier Status" languagecode="1033" />
+                          <label description="État de l'envoi par messagerie " languagecode="1036" />
+                        </labels>
+                        <control id="ma_courierstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ma_courierstatus" disabled="false" />
+                      </cell>
+                      <cell id="{eca46529-d467-4d08-b171-97d5eac7d0f9}" locklevel="0">
+                        <labels>
+                          <label description="Quantity of Envelopes" languagecode="1033" />
+                          <label description="Quantité d'enveloppes " languagecode="1036" />
+                        </labels>
+                        <control id="ma_quantityofenvelopes" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_quantityofenvelopes" disabled="false" uniqueid="{b05f0ab2-882c-463c-be56-fd3523beec1c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fdc8ba3f-e4a6-429b-9dea-ea1e0f0ddf36}" locklevel="0">
+                        <labels>
+                          <label description="Date Completed" languagecode="1033" />
+                          <label description="Date d'exécution " languagecode="1036" />
+                        </labels>
+                        <control id="ma_datecompleted" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ma_datecompleted" disabled="false" />
+                      </cell>
+                      <cell id="{1a2b9814-1986-48e2-aef6-26f7e36183c8}" locklevel="0">
+                        <labels>
+                          <label description="Quantity of Boxes" languagecode="1033" />
+                          <label description="Quantité de boîtes " languagecode="1036" />
+                        </labels>
+                        <control id="ma_quantityofboxes" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_quantityofboxes" disabled="false" uniqueid="{352f694b-fac8-4ee5-ac7b-0191e4d8e5a8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42a731ec-66de-40b0-8e3a-3063a4edf3fc}" locklevel="0">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                          <label description="Courriel " languagecode="1036" />
+                        </labels>
+                        <control id="ma_email" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="ma_email" disabled="false" />
+                      </cell>
+                      <cell id="{4a0a8a28-f006-4fa6-8758-392d3944da2b}" locklevel="0">
+                        <labels>
+                          <label description="Quantity of Others" languagecode="1033" />
+                          <label description="Quantité d'autres articles " languagecode="1036" />
+                        </labels>
+                        <control id="ma_quantityofothers" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_quantityofothers" disabled="false" uniqueid="{475710d5-6c2a-4c28-a810-9410372791e1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{14c9ba2c-8de6-4a55-8990-862a48b04ff0}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Sender" languagecode="1033" />
+                          <label description="Expéditeur " languagecode="1036" />
+                        </labels>
+                        <control id="ma_sender" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ma_sender" disabled="true" uniqueid="{c5034257-ad89-7509-7d69-583dcdd6a49b}">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>false</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{3c812bab-87c5-4fd5-9e6b-ac28e1991fe7}" locklevel="0">
+                        <labels>
+                          <label description="Notes" languagecode="1033" />
+                          <label description="Notes" languagecode="1036" />
+                        </labels>
+                        <control id="ma_notes" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_notes" disabled="false" uniqueid="{fe4557a9-b3e6-4a82-bbb9-61299a015d82}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{033756e0-369e-4306-9c85-205fdefeec4a}" locklevel="0">
+                        <labels>
+                          <label description="Routing Symbol" languagecode="1033" />
+                          <label description="Symbole d'acheminement " languagecode="1036" />
+                        </labels>
+                        <control id="ma_routingsymbol" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ma_routingsymbol" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{402a1058-98b4-4671-8d28-092b179af8fc}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c744ac0f-9e60-418f-b268-9d89a92c8813}" locklevel="0">
+                        <labels>
+                          <label description="Time Frame" languagecode="1033" />
+                          <label description="Échéancier " languagecode="1036" />
+                        </labels>
+                        <control id="ma_timeframe" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ma_timeframe" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{e91ad59a-7e59-4da8-8a5e-0cb8d8a49fe5}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d3939b7-b41e-448c-8df7-0bb8e03ff560}" locklevel="0">
+                        <labels>
+                          <label description="Type of Courier" languagecode="1033" />
+                          <label description="Type d'envoi par messagerie " languagecode="1036" />
+                        </labels>
+                        <control id="ma_typeofcourier" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ma_typeofcourier" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{4b217975-c455-4623-ab8d-27745514237e}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b4dff053-7a71-4e94-ac90-d2e632b07a0f}" locklevel="0">
+                        <labels>
+                          <label description="Is Protected B or Above" languagecode="1033" />
+                          <label description="De niveau Protégé B ou supérieur " languagecode="1036" />
+                        </labels>
+                        <control id="ma_isprotectedborabove" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_isprotectedborabove" disabled="false" uniqueid="{9e9855b2-2d0c-4ada-9479-7ff7988674cf}" />
+                      </cell>
+                      <cell locklevel="0" id="{b36823b3-843a-4c37-bb4d-a869a284777b}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38f352b7-4bcf-49b8-a3a3-99883a43f6c3}" locklevel="0">
+                        <labels>
+                          <label description="Contain Dangerous Good" languagecode="1033" />
+                          <label description="Contient des marchandises dangereuses " languagecode="1036" />
+                        </labels>
+                        <control id="ma_containdangerousgood" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_containdangerousgood" disabled="false" uniqueid="{ab99de50-bfff-4d96-822b-64d8b3b60339}" />
+                      </cell>
+                      <cell locklevel="0" id="{6c7d3fd0-4451-41ff-b568-efffeed3a865}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d858064f-b6c1-49ec-92f0-bda32ffc4b8d}" locklevel="0">
+                        <labels>
+                          <label description="Signature Required" languagecode="1033" />
+                          <label description="Signature requise " languagecode="1036" />
+                        </labels>
+                        <control id="ma_signaturerequired" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_signaturerequired" disabled="false" uniqueid="{b888eb28-c01c-443a-8b5f-9683309cb6d2}" />
+                      </cell>
+                      <cell locklevel="0" id="{03428614-a9f5-4796-b837-c31253b7ffa1}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{71ef8483-2937-43fa-8ea6-4f60e0559945}" locklevel="0">
+                        <labels>
+                          <label description="Tracking Number Required" languagecode="1033" />
+                          <label description="Numéro de suivi requis " languagecode="1036" />
+                        </labels>
+                        <control id="ma_trackingnumberrequired" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_trackingnumberrequired" disabled="false" uniqueid="{d1b5c58e-ae4b-454f-8e78-4100e63ab890}" />
+                      </cell>
+                      <cell locklevel="0" id="{a71efee0-ac86-4ba8-89f5-1ebc55c7c0fe}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="null_section_3" id="d59efa70-c229-4ce9-9c37-3ee889407ee1" IsUserDefined="0" locklevel="0" showlabel="false" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Left" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="New Section" languagecode="1033" />
+                    <label description="Nouvelle section " languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell locklevel="0" id="{f4b4370d-3a6b-4fb6-a4f3-6bf187d6a596}" rowspan="6" colspan="1" auto="false" showlabel="false">
+                        <labels>
+                          <label description="Package Tracking" languagecode="1033" />
+                          <label description="Suivi de colis" languagecode="1036" />
+                        </labels>
+                        <control id="gridPackageTracking" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{638170ea-e9bd-2cc1-139b-a3dd6e7ab8db}">
+                          <parameters>
+                            <TargetEntityType>ma_packagetracking</TargetEntityType>
+                            <ViewId>{3D0DE360-1809-4C50-9D6A-1DE279CEB22B}</ViewId>
+                            <ViewIds>{3D0DE360-1809-4C50-9D6A-1DE279CEB22B}</ViewIds>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                            <IsUserView>false</IsUserView>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RelationshipName>ma_PackageTracking_ma_CourierRequest_ma_C</RelationshipName>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{793fc1fa-543f-4be5-9d21-69f052c41efb}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{b6785092-c606-4ebd-be2e-332638cc808a}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{0d3f3213-3066-49eb-921d-796910f51477}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{6163679b-60d3-4848-87b9-af4dce9df156}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{cbb72fa1-d92a-4d91-867f-f61b0e015307}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Titulaire " languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+            <cell id="{627dd6b5-ffef-429f-ba85-ffafed5e17a5}" locklevel="0">
+              <labels>
+                <label description="Courier Status" languagecode="1033" />
+                <label description="État de l'envoi par messagerie " languagecode="1036" />
+              </labels>
+              <control id="header_ma_courierstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ma_courierstatus" disabled="false" />
+            </cell>
+            <cell id="{4c831ab7-94e6-4697-98c9-8593ea0d446b}" locklevel="0">
+              <labels>
+                <label description="Created On" languagecode="1033" />
+                <label description="Créé le " languagecode="1036" />
+              </labels>
+              <control id="header_createdon" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="createdon" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{7aacf9e1-03d4-4d38-af29-cc9739b61e93}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{97da5e37-a1d4-4c87-a44e-06c386502a38}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{44d09c02-5a98-4cec-b39c-1fd030bb4fc8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{98e65c41-9023-4c4d-bb34-34cae39a87fd}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <controlDescriptions>
+        <controlDescription forControl="{fe4557a9-b3e6-4a82-bbb9-61299a015d82}">
+          <customControl id="{E0DECE4B-6FC8-4A8F-A065-082708572369}">
+            <parameters>
+              <datafieldname>ma_notes</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">ma_notes</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">ma_notes</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RichTextEditor.RichTextEditorControl">
+            <parameters>
+              <value type="Multiple">ma_notes</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{9e9855b2-2d0c-4ada-9479-7ff7988674cf}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ma_isprotectedborabove</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_isprotectedborabove</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_isprotectedborabove</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_isprotectedborabove</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{ab99de50-bfff-4d96-822b-64d8b3b60339}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ma_containdangerousgood</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_containdangerousgood</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_containdangerousgood</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_containdangerousgood</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{b888eb28-c01c-443a-8b5f-9683309cb6d2}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ma_signaturerequired</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_signaturerequired</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_signaturerequired</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_signaturerequired</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{d1b5c58e-ae4b-454f-8e78-4100e63ab890}">
+          <customControl id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>ma_trackingnumberrequired</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_trackingnumberrequired</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_trackingnumberrequired</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value type="TwoOptions">ma_trackingnumberrequired</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{0b257b53-07a5-45b8-846b-10115c6dba1f}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>ma_numberofpieces</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_numberofpieces</value>
+              <step type="Whole.None">ma_numberofpieces</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_numberofpieces</value>
+              <step type="Whole.None">ma_numberofpieces</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_numberofpieces</value>
+              <step type="Whole.None">ma_numberofpieces</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{b05f0ab2-882c-463c-be56-fd3523beec1c}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>ma_quantityofenvelopes</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofenvelopes</value>
+              <step type="Whole.None">ma_quantityofenvelopes</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofenvelopes</value>
+              <step type="Whole.None">ma_quantityofenvelopes</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofenvelopes</value>
+              <step type="Whole.None">ma_quantityofenvelopes</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{352f694b-fac8-4ee5-ac7b-0191e4d8e5a8}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>ma_quantityofboxes</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofboxes</value>
+              <step type="Whole.None">ma_quantityofboxes</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofboxes</value>
+              <step type="Whole.None">ma_quantityofboxes</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofboxes</value>
+              <step type="Whole.None">ma_quantityofboxes</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{475710d5-6c2a-4c28-a810-9410372791e1}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>ma_quantityofothers</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofothers</value>
+              <step type="Whole.None">ma_quantityofothers</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofothers</value>
+              <step type="Whole.None">ma_quantityofothers</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofothers</value>
+              <step type="Whole.None">ma_quantityofothers</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{638170ea-e9bd-2cc1-139b-a3dd6e7ab8db}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+            <parameters>
+              <TargetEntityType>ma_packagetracking</TargetEntityType>
+              <ViewId>{3D0DE360-1809-4C50-9D6A-1DE279CEB22B}</ViewId>
+              <ViewIds>{3D0DE360-1809-4C50-9D6A-1DE279CEB22B}</ViewIds>
+              <EnableViewPicker>false</EnableViewPicker>
+              <RecordsPerPage>4</RecordsPerPage>
+              <HeaderColorCode>#F3F3F3</HeaderColorCode>
+              <IsUserView>false</IsUserView>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableJumpBar>false</EnableJumpBar>
+              <AutoExpand>Fixed</AutoExpand>
+              <ChartGridMode>All</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>true</EnableChartPicker>
+              <RelationshipName>ma_PackageTracking_ma_CourierRequest_ma_C</RelationshipName>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{3D0DE360-1809-4C50-9D6A-1DE279CEB22B}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>ma_PackageTracking_ma_CourierRequest_ma_C</RelationshipName>
+                <TargetEntityType>ma_packagetracking</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{3D0DE360-1809-4C50-9D6A-1DE279CEB22B}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Grid.GridControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{3D0DE360-1809-4C50-9D6A-1DE279CEB22B}</ViewId>
+                <columnsDefaultView />
+                <IsUserView>false</IsUserView>
+                <RelationshipName>ma_PackageTracking_ma_CourierRequest_ma_C</RelationshipName>
+                <TargetEntityType>ma_packagetracking</TargetEntityType>
+                <EnableViewPicker>false</EnableViewPicker>
+                <FilteredViewIds>{3D0DE360-1809-4C50-9D6A-1DE279CEB22B}</FilteredViewIds>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">yes</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">yes</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">GridOnly</ReflowBehavior>
+              <ListLayoutDirection static="true" type="Enum">Vertical</ListLayoutDirection>
+              <EnableSubGridAutoCollapse static="true" type="Enum">false</EnableSubGridAutoCollapse>
+              <EnableFiltering static="true" type="Enum">yes</EnableFiltering>
+              <HideNestedGridColumnHeader static="true" type="Enum">no</HideNestedGridColumnHeader>
+              <EnableJumpBar static="true" type="Enum">yes</EnableJumpBar>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Renseignements " languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

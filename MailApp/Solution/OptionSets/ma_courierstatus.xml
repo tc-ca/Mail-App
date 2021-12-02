@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ma_courierstatus" localizedName="Courier Status" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Courier Status" languagecode="1033" />
+    <displayname description="État de l'envoi par messagerie " languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="953960000">
+      <labels>
+        <label description="New" languagecode="1033" />
+        <label description="Nouvel envoi " languagecode="1036" />
+      </labels>
+    </option>
+    <option value="953960001">
+      <labels>
+        <label description="Pending" languagecode="1033" />
+        <label description="En attente " languagecode="1036" />
+      </labels>
+    </option>
+    <option value="953960002">
+      <labels>
+        <label description="Shipped" languagecode="1033" />
+        <label description="Expédié " languagecode="1036" />
+      </labels>
+    </option>
+    <option value="953960003">
+      <labels>
+        <label description="Cancelled" languagecode="1033" />
+        <label description="Annulé " languagecode="1036" />
+      </labels>
+    </option>
+  </options>
+</optionset>

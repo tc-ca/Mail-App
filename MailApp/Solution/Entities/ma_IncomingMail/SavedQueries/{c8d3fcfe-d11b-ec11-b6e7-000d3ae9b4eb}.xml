@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c8d3fcfe-d11b-ec11-b6e7-000d3ae9b4eb}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ma_incomingmailrequestnumber" select="1" icon="1" preview="1">
+        <row name="result" id="ma_incomingmailid">
+          <cell name="ma_incomingmailrequestnumber" width="200" />
+          <cell name="ma_incomingmailstatus" width="100" />
+          <cell name="ma_incomingtrackingnumber" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ma_incomingmail">
+          <attribute name="ma_incomingmailrequestnumber" />
+          <attribute name="ma_incomingmailid" />
+          <filter type="and">
+            <condition attribute="ma_officelocation" operator="eq" value="953960000" />
+          </filter>
+          <attribute name="ma_incomingmailstatus" />
+          <attribute name="ma_incomingtrackingnumber" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Moncton" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

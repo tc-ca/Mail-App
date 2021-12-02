@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{89838d31-ea40-4987-b735-7dcaa61f3da2}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ma_name" select="1" icon="1" preview="1">
+        <row name="result" id="ma_packagetrackingid">
+          <cell name="ma_name" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="ma_packagetracking">
+          <attribute name="ma_packagetrackingid" />
+          <attribute name="ma_name" />
+          <attribute name="createdon" />
+          <order attribute="ma_name" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="ma_name" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Package Trackings" languagecode="1033" />
+      <LocalizedName description="Suivis de colis actifs pour repérage rapide " languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
