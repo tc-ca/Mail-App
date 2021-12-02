@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.21112.125" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>MailApp</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Mail App" languagecode="1033" />
+      <LocalizedName description="Appli de courrier " languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.1</Version>
+    <Managed>1</Managed>
+    <Publisher>
+      <UniqueName>mailapppublisher</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Mail App Publisher" languagecode="1033" />
+        <LocalizedName description="Éditeur de l'appli de courrier " languagecode="1036" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ma</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>95396</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="1" schemaName="ma_courierrequest" behavior="0" />
+      <RootComponent type="1" schemaName="ma_incomingmail" behavior="0" />
+      <RootComponent type="1" schemaName="ma_packagetracking" behavior="0" />
+      <RootComponent type="1" schemaName="systemuser" behavior="0" />
+      <RootComponent type="9" schemaName="ma_courierstatus" behavior="0" />
+      <RootComponent type="9" schemaName="ma_officelocations" behavior="0" />
+      <RootComponent type="9" schemaName="ma_preferredlanguage" behavior="0" />
+      <RootComponent type="9" schemaName="ma_timeframe" behavior="0" />
+      <RootComponent type="9" schemaName="ma_typeofcourier" behavior="0" />
+      <RootComponent type="9" schemaName="ra_status2" behavior="0" />
+      <RootComponent type="20" id="{13b8257d-d110-ec11-b6e6-0022483d0e76}" behavior="0" />
+      <RootComponent type="20" id="{840e02fa-d310-ec11-b6e6-0022483d0e76}" behavior="0" />
+      <RootComponent type="29" id="{1faed17e-4bdf-eb11-bacb-000d3ae85dc4}" behavior="0" />
+      <RootComponent type="60" id="{09cfb76e-64d3-eb11-bacc-000d3a0c9a07}" behavior="0" />
+      <RootComponent type="62" schemaName="ma_InformationManagementAdmin" behavior="0" />
+      <RootComponent type="80" schemaName="ma_InformationManagementAdmin" behavior="0" />
+      <RootComponent type="300" schemaName="ma_atlimdigitalmobile_5bbf8" behavior="0" />
+      <RootComponent type="431" schemaName="ma_incomingmail ma_pickupsignature" behavior="0" />
+      <RootComponent type="432" schemaName="ma_incomingmail" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="appusersetting" displayName="Model-Driven App User Setting" solution="AppModule (9.1.21112.211117010)" />
+        <Dependent type="1" schemaName="systemuser" displayName="User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="bot" displayName="Chatbot" solution="PowerVirtualAgents (2.0.0.88)">
+          <package>msdynce_CustomerCareIntelligenceBots_Anchor (2.0.0.88)</package>
+        </Required>
+        <Dependent type="1" schemaName="systemuser" displayName="User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="usermobileofflineprofilemembership" displayName="UserMobileOfflineProfileMembership" solution="MobileOfflineMembership (1.0.0.2)" />
+        <Dependent type="1" schemaName="systemuser" displayName="User" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="ma_InformationManagementAdmin" displayName="Information Management Admin" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.2009)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Courier Request" id="{f97548f6-6127-4855-8a43-5413c266b8d6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2111.2009)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Courier Request" id="{f97548f6-6127-4855-8a43-5413c266b8d6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.NumberInput.NumberInputControl" displayName="MscrmControls.NumberInput.NumberInputControl" solution="BaseCustomControlsCore (9.0.2111.2009)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Courier Request" id="{f97548f6-6127-4855-8a43-5413c266b8d6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.RichTextEditor.RichTextEditorControl" displayName="MscrmControls.RichTextEditor.RichTextEditorControl" solution="msdyn_RichTextEditor (1.0.0.1342)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Courier Request" id="{f97548f6-6127-4855-8a43-5413c266b8d6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Signature.SignatureControl" displayName="MscrmControls.Signature.SignatureControl" solution="CustomControlsCore (9.2.21112.00125)" />
+        <Dependent type="60" displayName=" main form" parentDisplayName="Incoming Mail" id="{0926d7b8-cde0-eb11-bacb-000d3ae85dc4}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
