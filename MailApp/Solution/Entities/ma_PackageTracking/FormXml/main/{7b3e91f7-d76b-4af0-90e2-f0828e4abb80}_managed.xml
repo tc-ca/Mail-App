@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7b3e91f7-d76b-4af0-90e2-f0828e4abb80}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{19f35022-3e12-4496-a147-2207aa38b376}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Généralités " languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{78e75968-8458-4f9e-b40e-f3558b1818d5}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Généralités " languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ab2885aa-2ee9-4c0e-9b6d-a90949edeca4}">
+                        <labels>
+                          <label description="Recipient" languagecode="1033" />
+                          <label description="Destinataire " languagecode="1036" />
+                        </labels>
+                        <control id="ma_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ma_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{90cbef14-e183-4c6d-8981-53fa755640cb}" locklevel="0">
+                        <labels>
+                          <label description="Provider" languagecode="1033" />
+                          <label description="Fournisseur " languagecode="1036" />
+                        </labels>
+                        <control id="ma_provider" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ma_provider" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e2df6d79-a3c1-4ab6-a67a-2aec865080a9}" locklevel="0">
+                        <labels>
+                          <label description="Tracking Number" languagecode="1033" />
+                          <label description="Numéro de suivi " languagecode="1036" />
+                        </labels>
+                        <control id="ma_trackingnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ma_trackingnumber" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{d3c94e50-8654-450d-ba6b-93c74246e578}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{4e05af5c-bce0-49d5-af0b-811ff9942bdc}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{77864b86-9a4e-4654-acd9-83f01096a5d1}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{c95e015c-3928-4185-92a3-0b742eb59f80}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{7e8403d4-696f-44e2-9b40-5dd20e4d8ff6}">
+              <labels>
+                <label description="Owner" languagecode="1033" />
+                <label description="Titulaire " languagecode="1036" />
+              </labels>
+              <control id="header_ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{4baaaf03-76ec-4c6f-9b40-a93ca1b82181}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{2a88173e-aaa5-46a2-a093-a8076f3fc6c2}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{159821ca-bac6-4669-a46f-3183b282531b}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{491927b5-145e-4658-a404-ba8c8c3f58d8}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions Order="0" FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+      <LocalizedName description="Renseignements " languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

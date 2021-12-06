@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{c58b6ceb-212a-4e9b-bc01-80d68d155fe4}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="ma_incomingmailrequestnumber" select="1" icon="1" preview="1">
+        <row name="result" id="ma_incomingmailid">
+          <cell name="ma_incomingmailrequestnumber" width="300" />
+          <cell name="ma_officelocation" width="100" />
+          <cell name="ma_incomingmailstatus" width="150" />
+          <cell name="ma_addressee" width="150" />
+          <cell name="ma_provider" width="150" />
+          <cell name="ma_incomingtrackingnumber" width="150" />
+          <cell name="ma_dateitemreceived" width="150" />
+          <cell name="ma_dateaddresseenotified" width="150" />
+          <cell name="ma_pickupdate" width="150" />
+          <cell name="ma_pickupname" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical">
+        <entity name="ma_incomingmail">
+          <attribute name="ma_incomingmailid" />
+          <attribute name="ma_incomingmailrequestnumber" />
+          <attribute name="ma_addressee" />
+          <attribute name="ma_provider" />
+          <attribute name="ma_incomingtrackingnumber" />
+          <attribute name="ma_dateitemreceived" />
+          <attribute name="ma_dateaddresseenotified" />
+          <attribute name="ma_pickupdate" />
+          <attribute name="ma_incomingmailstatus" />
+          <attribute name="ma_pickupname" />
+          <order attribute="ma_incomingmailrequestnumber" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="ma_officelocation" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Incoming Mails" languagecode="1033" />
+      <LocalizedName description="Courrier d'arrivée actif (plusieurs articles)" languagecode="1036" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

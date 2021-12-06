@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ma_typeofcourier" localizedName="Type of Courier" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Type of Courier" languagecode="1033" />
+    <displayname description="Type d'envoi par messagerie " languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="953960000">
+      <labels>
+        <label description="Domestic" languagecode="1033" />
+        <label description="Intérieur " languagecode="1036" />
+      </labels>
+    </option>
+    <option value="953960001">
+      <labels>
+        <label description="USA" languagecode="1033" />
+        <label description="États-Unis " languagecode="1036" />
+      </labels>
+    </option>
+    <option value="953960002">
+      <labels>
+        <label description="Other" languagecode="1033" />
+        <label description="Autres " languagecode="1036" />
+      </labels>
+    </option>
+  </options>
+</optionset>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<optionset Name="ma_officelocations" localizedName="Office Locations" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <displaynames>
+    <displayname description="Office Locations" languagecode="1033" />
+    <displayname description="Lieux des bureaux " languagecode="1036" />
+  </displaynames>
+  <Descriptions>
+    <Description description="" languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option value="953960000">
+      <labels>
+        <label description="Moncton" languagecode="1033" />
+        <label description="Moncton " languagecode="1036" />
+      </labels>
+    </option>
+    <option value="953960001">
+      <labels>
+        <label description="Dartmouth" languagecode="1033" />
+        <label description="Dartmouth" languagecode="1036" />
+      </labels>
+    </option>
+    <option value="953960002">
+      <labels>
+        <label description="NCR" languagecode="1033" />
+        <label description="RCN" languagecode="1036" />
+      </labels>
+    </option>
+  </options>
+</optionset>

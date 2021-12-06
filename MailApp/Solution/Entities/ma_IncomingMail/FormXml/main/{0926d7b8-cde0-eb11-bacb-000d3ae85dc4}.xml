@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{0926d7b8-cde0-eb11-bacb-000d3ae85dc4}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form headerdensity="HighWithControls">
+      <tabs>
+        <tab verticallayout="true" id="{25bdb12e-db1e-4dfb-a1fd-bdf866b10cef}" IsUserDefined="1" labelid="{c05dd51e-9205-45a6-886d-28faca46a059}" expanded="true">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Généralités " languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{0ec2bc5b-0143-4524-b6b1-98a6d5ed7896}" labelid="{908755e2-17f7-4920-92ad-16b616710f11}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                    <label description="Généralités " languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b84d2750-70e5-4102-ac12-ef2b24824f26}" labelid="{61f869e1-1424-4913-9277-0bd3e888f1cc}" locklevel="0">
+                        <labels>
+                          <label description="Incoming Mail Request Number" languagecode="1033" />
+                          <label description="Numéro de demande de courrier d'arrivée " languagecode="1036" />
+                        </labels>
+                        <control id="ma_incomingmailrequestnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="ma_incomingmailrequestnumber" disabled="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9b6e19ca-166f-42f5-94a7-061fc10c422c}" locklevel="0">
+                        <labels>
+                          <label description="Incoming Mail Status" languagecode="1033" />
+                          <label description="Courrier d'arrivée - état " languagecode="1036" />
+                        </labels>
+                        <control id="ma_incomingmailstatus" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ma_incomingmailstatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db5d5cd8-59b4-4480-9dbb-b92835287f73}" labelid="{d9e6dcd7-d487-4bf0-b5fe-88a120054662}" visible="false">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                          <label description="Titulaire " languagecode="1036" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c62745fb-27ce-4a49-aade-2bf289575763}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Office Location" languagecode="1033" />
+                        </labels>
+                        <control id="ma_officelocation" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ma_officelocation" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae2123f4-9117-46b6-9ef9-ce57a4eae9a3}" locklevel="0" labelid="{842ee496-a232-4d89-9aad-4840758e4aca}">
+                        <labels>
+                          <label description="Addressee" languagecode="1033" />
+                          <label description="Destinataire " languagecode="1036" />
+                        </labels>
+                        <control id="ma_addressee" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ma_addressee" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cf701b45-83f7-4a40-a7fd-16e718fcac14}" locklevel="0">
+                        <labels>
+                          <label description="Provider" languagecode="1033" />
+                          <label description="Fournisseur " languagecode="1036" />
+                        </labels>
+                        <control id="ma_provider" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ma_provider" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fe8cb9f7-d767-441d-88b8-4e4ee5d203d5}" locklevel="0" labelid="{0da11283-5764-4b2e-8952-2d09fae7ca3a}">
+                        <labels>
+                          <label description="Incoming Tracking Number" languagecode="1033" />
+                          <label description="Numéro de suivi de courrier d'arrivée " languagecode="1036" />
+                        </labels>
+                        <control id="ma_incomingtrackingnumber" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ma_incomingtrackingnumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5d3643d8-b749-4e37-92f1-d0a96f1f73b5}" locklevel="0" labelid="{c4112aa9-0556-4811-9f7e-be1b194a66d7}">
+                        <labels>
+                          <label description="Date item received" languagecode="1033" />
+                          <label description="Détails" languagecode="1036" />
+                        </labels>
+                        <control id="ma_dateitemreceived" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ma_dateitemreceived" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d0e1f829-732e-4701-976d-8705f9b41a75}" locklevel="0" labelid="{0fcaf450-630e-43c5-a065-886afecfb9fb}">
+                        <labels>
+                          <label description="Date addressee notified" languagecode="1033" />
+                          <label description="Date de notification du destinataire " languagecode="1036" />
+                        </labels>
+                        <control id="ma_dateaddresseenotified" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ma_dateaddresseenotified" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{609eca91-1463-498f-b8e4-7eb5daea9063}" locklevel="0" labelid="{99036856-6b73-4988-bb8a-98f4eb8af91a}">
+                        <labels>
+                          <label description="Pickup date" languagecode="1033" />
+                          <label description="Date de ramassage" languagecode="1036" />
+                        </labels>
+                        <control id="ma_pickupdate" classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}" datafieldname="ma_pickupdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fee118dd-add0-4e29-b668-d99e8f7e2cf6}" locklevel="0" labelid="{08c495b1-3750-452b-ab63-5d184c8102be}">
+                        <labels>
+                          <label description="Pickup name" languagecode="1033" />
+                          <label description="Nom du ramasseur " languagecode="1036" />
+                        </labels>
+                        <control id="ma_pickupname" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ma_pickupname" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="_section_853" id="96ef5c37-4440-422a-a440-418b889effc4" IsUserDefined="0" locklevel="0" showlabel="true" showbar="false" layout="varwidth" celllabelalignment="Left" celllabelposition="Top" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Signature" languagecode="1033" />
+                    <label description="Nouvelle section " languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d5a61d07-3ede-8792-8085-2c02aec98e47}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="CustomerSignature" languagecode="1033" />
+                          <label description="Signature du client" languagecode="1036" />
+                        </labels>
+                        <control id="ma_customersignature" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_customersignature" disabled="false" uniqueid="{2ddc9827-3563-c57e-db66-6e42056ee174}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{63e66951-9b1d-45dd-bdf5-acd6e005eef7}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{af6b0c29-8b3f-4bee-a023-75401c8fc843}" showlabel="false" labelid="{fef934cd-c49b-4f71-b7a6-501d95b6b71f}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9ee27e31-78d5-4c05-a1fb-a2e45875a010}" showlabel="false" labelid="{a08df377-1dea-420f-8531-364bb07c0b0a}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{b2633181-58be-4c24-913d-604f664dc814}" showlabel="false" labelid="{3ffa47f3-4370-4dba-8b4e-ecebfc70fbc5}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer id="{2046f888-1e59-4678-af9a-7ab9ba8db553}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell id="{0ff0fcf2-bb8f-4c4b-9b46-2ec5f6e65f13}" showlabel="false" labelid="{745c2efc-f4a4-4ff4-a10c-bfac096ed56e}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{9c8082b9-c45a-45cf-8b69-9c321f3f4344}" showlabel="false" labelid="{554d0ee6-12c3-4c0a-9410-3b262e69d3ca}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{f9e09c8e-355d-4fa4-91fd-7eb33eedf5f4}" showlabel="false" labelid="{329a0df7-a89e-4d8e-aeec-7899fc9e2764}">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <Navigation>
+        <NavBar />
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{2ddc9827-3563-c57e-db66-6e42056ee174}">
+          <customControl id="{E0DECE4B-6FC8-4a8f-A065-082708572369}">
+            <parameters>
+              <datafieldname>ma_customersignature</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.Signature.SignatureControl">
+            <parameters>
+              <value>ma_customersignature</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.Signature.SignatureControl">
+            <parameters>
+              <value>ma_customersignature</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Signature.SignatureControl">
+            <parameters>
+              <value>ma_customersignature</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+        <Role Id="{574f76e1-7115-4db2-a3e4-389a6702b880}" />
+        <Role Id="{4812420e-d837-45be-8577-85879e59c1b2}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description=" main form" languagecode="1033" />
+      <LocalizedName description="Formulaire principal " languagecode="1036" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+      <Description description="Formulaire pour cette entité" languagecode="1036" />
+    </Descriptions>
+  </systemform>
+</forms>

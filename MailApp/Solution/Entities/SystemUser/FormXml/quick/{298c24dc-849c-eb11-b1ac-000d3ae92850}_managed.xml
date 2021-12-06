@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{298c24dc-849c-eb11-b1ac-000d3ae92850}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="ACBA75B7-97B6-4116-AA55-51312992B721" name="tabGeneral" showlabel="false" labelid="{4fe8d7f0-4d2e-4e2f-b3a3-fa1e07a3ba67}">
+          <labels>
+            <label description="General" languagecode="1033" />
+            <label description="Généralités " languagecode="1036" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="AD49B5BF-256F-46A8-9C75-947146172EB9" name="secInformation" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelwidth="130" labelid="{8ae44a38-0bb6-41f8-8a8a-4ed3c5b70d8a}">
+                  <labels>
+                    <label description="Information" languagecode="1033" />
+                    <label description="Renseignements " languagecode="1036" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e260b2fd-f29a-4065-8857-48d24d062faa}" locklevel="0" labelid="{c6676b99-e748-4ce2-be5e-2c5b7fce1eb5}">
+                        <labels>
+                          <label description="Primary Email" languagecode="1033" />
+                          <label description="Adresse courriel principale " languagecode="1036" />
+                        </labels>
+                        <control id="internalemailaddress" classid="{ADA2203E-B4CD-49BE-9DDF-234642B43B52}" datafieldname="internalemailaddress" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="1" FallbackForm="true">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="User Profile" languagecode="1033" />
+      <LocalizedName description="Profil d'utilisateur  " languagecode="1036" />
+    </LocalizedNames>
+  </systemform>
+</forms>
