@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.21112.125" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.21113.126" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>MailApp</UniqueName>
     <LocalizedNames>
@@ -7,7 +7,7 @@
       <LocalizedName description="Appli de courrier " languagecode="1036" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.1.0.1</Version>
+    <Version>1.2.0.1</Version>
     <Managed>2</Managed>
     <Publisher>
       <UniqueName>mailapppublisher</UniqueName>
@@ -94,7 +94,9 @@
       <RootComponent type="20" id="{13b8257d-d110-ec11-b6e6-0022483d0e76}" behavior="0" />
       <RootComponent type="20" id="{794cbcb4-7f53-ec11-8f8e-000d3ae9ac38}" behavior="0" />
       <RootComponent type="20" id="{840e02fa-d310-ec11-b6e6-0022483d0e76}" behavior="0" />
+      <RootComponent type="29" id="{09549432-ec37-ec11-8c64-000d3aff0c64}" behavior="0" />
       <RootComponent type="29" id="{1faed17e-4bdf-eb11-bacb-000d3ae85dc4}" behavior="0" />
+      <RootComponent type="29" id="{51ca2d79-e052-ec11-8f8e-000d3ae9ac38}" behavior="0" />
       <RootComponent type="60" id="{09cfb76e-64d3-eb11-bacc-000d3a0c9a07}" behavior="0" />
       <RootComponent type="62" schemaName="ma_InformationManagementAdmin" behavior="0" />
       <RootComponent type="80" schemaName="ma_InformationManagementAdmin" behavior="0" />
@@ -104,7 +106,7 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required type="1" schemaName="appusersetting" displayName="Model-Driven App User Setting" solution="AppModule (9.1.21112.211117010)" />
+        <Required type="1" schemaName="appusersetting" displayName="Model-Driven App User Setting" solution="AppModule (9.1.21113.211117011)" />
         <Dependent type="1" schemaName="systemuser" displayName="User" />
       </MissingDependency>
       <MissingDependency>
@@ -122,15 +124,15 @@
         <Dependent type="80" schemaName="ma_InformationManagementAdmin" displayName="Information Management Admin" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.2009)" />
+        <Required type="66" schemaName="MscrmControls.FieldControls.ToggleControl" displayName="MscrmControls.FieldControls.ToggleControl" solution="BaseCustomControlsCore (9.0.2111.3011)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Courier Request" id="{f97548f6-6127-4855-8a43-5413c266b8d6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2111.2009)" />
+        <Required type="66" schemaName="MscrmControls.Grid.GridControl" displayName="MscrmControls.Grid.GridControl" solution="BaseCustomControlsCore (9.0.2111.3011)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Courier Request" id="{f97548f6-6127-4855-8a43-5413c266b8d6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.NumberInput.NumberInputControl" displayName="MscrmControls.NumberInput.NumberInputControl" solution="BaseCustomControlsCore (9.0.2111.2009)" />
+        <Required type="66" schemaName="MscrmControls.NumberInput.NumberInputControl" displayName="MscrmControls.NumberInput.NumberInputControl" solution="BaseCustomControlsCore (9.0.2111.3011)" />
         <Dependent type="60" displayName="Information" parentDisplayName="Courier Request" id="{f97548f6-6127-4855-8a43-5413c266b8d6}" />
       </MissingDependency>
       <MissingDependency>
@@ -138,7 +140,7 @@
         <Dependent type="60" displayName="Information" parentDisplayName="Courier Request" id="{f97548f6-6127-4855-8a43-5413c266b8d6}" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="MscrmControls.Signature.SignatureControl" displayName="MscrmControls.Signature.SignatureControl" solution="CustomControlsCore (9.2.21112.00125)" />
+        <Required type="66" schemaName="MscrmControls.Signature.SignatureControl" displayName="MscrmControls.Signature.SignatureControl" solution="CustomControlsCore (9.2.21113.00126)" />
         <Dependent type="60" displayName=" main form" parentDisplayName="Incoming Mail" id="{0926d7b8-cde0-eb11-bacb-000d3ae85dc4}" />
       </MissingDependency>
     </MissingDependencies>
