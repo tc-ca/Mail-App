@@ -631,8 +631,8 @@
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <Format>none</Format>
-          <MinValue>-2147483648</MinValue>
-          <MaxValue>2147483647</MaxValue>
+          <MinValue>0</MinValue>
+          <MaxValue>200</MaxValue>
           <displaynames>
             <displayname description="Number of Pieces" languagecode="1033" />
             <displayname description="Nombre d'articles " languagecode="1036" />
@@ -754,8 +754,8 @@
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <Format>none</Format>
-          <MinValue>-2147483648</MinValue>
-          <MaxValue>2147483647</MaxValue>
+          <MinValue>0</MinValue>
+          <MaxValue>200</MaxValue>
           <displaynames>
             <displayname description="Quantity of Boxes" languagecode="1033" />
             <displayname description="Quantité de boîtes " languagecode="1036" />
@@ -796,8 +796,8 @@
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <Format>none</Format>
-          <MinValue>-2147483648</MinValue>
-          <MaxValue>2147483647</MaxValue>
+          <MinValue>0</MinValue>
+          <MaxValue>200</MaxValue>
           <displaynames>
             <displayname description="Quantity of Envelopes" languagecode="1033" />
             <displayname description="Quantité d'enveloppes " languagecode="1036" />
@@ -838,8 +838,8 @@
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
           <Format>none</Format>
-          <MinValue>-2147483648</MinValue>
-          <MaxValue>2147483647</MaxValue>
+          <MinValue>0</MinValue>
+          <MaxValue>200</MaxValue>
           <displaynames>
             <displayname description="Quantity of Others" languagecode="1033" />
             <displayname description="Quantité d'autres articles " languagecode="1036" />

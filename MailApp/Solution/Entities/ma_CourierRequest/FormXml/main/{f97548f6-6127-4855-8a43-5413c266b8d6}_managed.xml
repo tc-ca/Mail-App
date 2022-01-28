@@ -34,7 +34,7 @@
                           <label description="Number of Pieces" languagecode="1033" />
                           <label description="Nombre d'articles " languagecode="1036" />
                         </labels>
-                        <control id="ma_numberofpieces" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_numberofpieces" disabled="false" uniqueid="{0b257b53-07a5-45b8-846b-10115c6dba1f}" />
+                        <control id="ma_numberofpieces" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_numberofpieces" disabled="false" uniqueid="{e801498a-d9f9-4da8-9618-f3884c41f9e3}" />
                       </cell>
                     </row>
                     <row>
@@ -50,7 +50,7 @@
                           <label description="Quantity of Envelopes" languagecode="1033" />
                           <label description="Quantité d'enveloppes " languagecode="1036" />
                         </labels>
-                        <control id="ma_quantityofenvelopes" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_quantityofenvelopes" disabled="false" uniqueid="{b05f0ab2-882c-463c-be56-fd3523beec1c}" />
+                        <control id="ma_quantityofenvelopes" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_quantityofenvelopes" disabled="false" uniqueid="{dc7729f9-69eb-4d35-9655-e90c0b383eff}" />
                       </cell>
                     </row>
                     <row>
@@ -66,7 +66,7 @@
                           <label description="Quantity of Boxes" languagecode="1033" />
                           <label description="Quantité de boîtes " languagecode="1036" />
                         </labels>
-                        <control id="ma_quantityofboxes" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_quantityofboxes" disabled="false" uniqueid="{352f694b-fac8-4ee5-ac7b-0191e4d8e5a8}" />
+                        <control id="ma_quantityofboxes" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_quantityofboxes" disabled="false" uniqueid="{2439089d-82d3-4669-b6ca-85e8b85e985c}" />
                       </cell>
                     </row>
                     <row>
@@ -82,7 +82,7 @@
                           <label description="Quantity of Others" languagecode="1033" />
                           <label description="Quantité d'autres articles " languagecode="1036" />
                         </labels>
-                        <control id="ma_quantityofothers" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_quantityofothers" disabled="false" uniqueid="{475710d5-6c2a-4c28-a810-9410372791e1}" />
+                        <control id="ma_quantityofothers" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_quantityofothers" disabled="false" uniqueid="{dcf3e690-1d1f-4b58-a936-8be7061881c6}" />
                       </cell>
                     </row>
                     <row>
@@ -111,6 +111,19 @@
                       </cell>
                     </row>
                     <row>
+                      <cell id="{7d472437-ac04-45b3-bca4-9edea4bea438}" locklevel="0" colspan="1" rowspan="1" visible="true">
+                        <labels>
+                          <label description="Office Locations" languagecode="1033" />
+                        </labels>
+                        <control id="ma_officelocations" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ma_officelocations" disabled="false" />
+                      </cell>
+                      <cell locklevel="0" id="{e91ad59a-7e59-4da8-8a5e-0cb8d8a49fe5}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{033756e0-369e-4306-9c85-205fdefeec4a}" locklevel="0">
                         <labels>
                           <label description="Routing Symbol" languagecode="1033" />
@@ -118,7 +131,7 @@
                         </labels>
                         <control id="ma_routingsymbol" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="ma_routingsymbol" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{402a1058-98b4-4671-8d28-092b179af8fc}" showlabel="false">
+                      <cell locklevel="0" id="{4b217975-c455-4623-ab8d-27745514237e}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -132,7 +145,7 @@
                         </labels>
                         <control id="ma_timeframe" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ma_timeframe" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{e91ad59a-7e59-4da8-8a5e-0cb8d8a49fe5}" showlabel="false">
+                      <cell locklevel="0" id="{b36823b3-843a-4c37-bb4d-a869a284777b}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -146,7 +159,21 @@
                         </labels>
                         <control id="ma_typeofcourier" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="ma_typeofcourier" disabled="false" />
                       </cell>
-                      <cell locklevel="0" id="{4b217975-c455-4623-ab8d-27745514237e}" showlabel="false">
+                      <cell locklevel="0" id="{6c7d3fd0-4451-41ff-b568-efffeed3a865}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{38f352b7-4bcf-49b8-a3a3-99883a43f6c3}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Contain Dangerous Good" languagecode="1033" />
+                          <label description="Contient des marchandises dangereuses " languagecode="1036" />
+                        </labels>
+                        <control id="ma_containdangerousgood" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_containdangerousgood" disabled="false" uniqueid="{ab99de50-bfff-4d96-822b-64d8b3b60339}" />
+                      </cell>
+                      <cell locklevel="0" id="{03428614-a9f5-4796-b837-c31253b7ffa1}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -160,21 +187,7 @@
                         </labels>
                         <control id="ma_isprotectedborabove" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_isprotectedborabove" disabled="false" uniqueid="{9e9855b2-2d0c-4ada-9479-7ff7988674cf}" />
                       </cell>
-                      <cell locklevel="0" id="{b36823b3-843a-4c37-bb4d-a869a284777b}" showlabel="false">
-                        <labels>
-                          <label description="" languagecode="1033" />
-                        </labels>
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{38f352b7-4bcf-49b8-a3a3-99883a43f6c3}" locklevel="0">
-                        <labels>
-                          <label description="Contain Dangerous Good" languagecode="1033" />
-                          <label description="Contient des marchandises dangereuses " languagecode="1036" />
-                        </labels>
-                        <control id="ma_containdangerousgood" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_containdangerousgood" disabled="false" uniqueid="{ab99de50-bfff-4d96-822b-64d8b3b60339}" />
-                      </cell>
-                      <cell locklevel="0" id="{6c7d3fd0-4451-41ff-b568-efffeed3a865}" showlabel="false">
+                      <cell locklevel="0" id="{a71efee0-ac86-4ba8-89f5-1ebc55c7c0fe}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -188,7 +201,7 @@
                         </labels>
                         <control id="ma_signaturerequired" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_signaturerequired" disabled="false" uniqueid="{b888eb28-c01c-443a-8b5f-9683309cb6d2}" />
                       </cell>
-                      <cell locklevel="0" id="{03428614-a9f5-4796-b837-c31253b7ffa1}" showlabel="false">
+                      <cell locklevel="0" id="{697b6c24-fd95-4140-a3fc-03e204017f46}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -202,7 +215,7 @@
                         </labels>
                         <control id="ma_trackingnumberrequired" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="ma_trackingnumberrequired" disabled="false" uniqueid="{d1b5c58e-ae4b-454f-8e78-4100e63ab890}" />
                       </cell>
-                      <cell locklevel="0" id="{a71efee0-ac86-4ba8-89f5-1ebc55c7c0fe}" showlabel="false">
+                      <cell locklevel="0" id="{8b64f73e-f1ce-41f4-9d27-d3f813e7688d}">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -429,106 +442,6 @@
             </parameters>
           </customControl>
         </controlDescription>
-        <controlDescription forControl="{0b257b53-07a5-45b8-846b-10115c6dba1f}">
-          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
-            <parameters>
-              <datafieldname>ma_numberofpieces</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_numberofpieces</value>
-              <step type="Whole.None">ma_numberofpieces</step>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_numberofpieces</value>
-              <step type="Whole.None">ma_numberofpieces</step>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_numberofpieces</value>
-              <step type="Whole.None">ma_numberofpieces</step>
-            </parameters>
-          </customControl>
-        </controlDescription>
-        <controlDescription forControl="{b05f0ab2-882c-463c-be56-fd3523beec1c}">
-          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
-            <parameters>
-              <datafieldname>ma_quantityofenvelopes</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_quantityofenvelopes</value>
-              <step type="Whole.None">ma_quantityofenvelopes</step>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_quantityofenvelopes</value>
-              <step type="Whole.None">ma_quantityofenvelopes</step>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_quantityofenvelopes</value>
-              <step type="Whole.None">ma_quantityofenvelopes</step>
-            </parameters>
-          </customControl>
-        </controlDescription>
-        <controlDescription forControl="{352f694b-fac8-4ee5-ac7b-0191e4d8e5a8}">
-          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
-            <parameters>
-              <datafieldname>ma_quantityofboxes</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_quantityofboxes</value>
-              <step type="Whole.None">ma_quantityofboxes</step>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_quantityofboxes</value>
-              <step type="Whole.None">ma_quantityofboxes</step>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_quantityofboxes</value>
-              <step type="Whole.None">ma_quantityofboxes</step>
-            </parameters>
-          </customControl>
-        </controlDescription>
-        <controlDescription forControl="{475710d5-6c2a-4c28-a810-9410372791e1}">
-          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
-            <parameters>
-              <datafieldname>ma_quantityofothers</datafieldname>
-            </parameters>
-          </customControl>
-          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_quantityofothers</value>
-              <step type="Whole.None">ma_quantityofothers</step>
-            </parameters>
-          </customControl>
-          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_quantityofothers</value>
-              <step type="Whole.None">ma_quantityofothers</step>
-            </parameters>
-          </customControl>
-          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
-            <parameters>
-              <value type="Currency">ma_quantityofothers</value>
-              <step type="Whole.None">ma_quantityofothers</step>
-            </parameters>
-          </customControl>
-        </controlDescription>
         <controlDescription forControl="{638170ea-e9bd-2cc1-139b-a3dd6e7ab8db}">
           <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
             <parameters>
@@ -592,9 +505,109 @@
             </parameters>
           </customControl>
         </controlDescription>
+        <controlDescription forControl="{e801498a-d9f9-4da8-9618-f3884c41f9e3}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>ma_numberofpieces</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_numberofpieces</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_numberofpieces</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_numberofpieces</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{dc7729f9-69eb-4d35-9655-e90c0b383eff}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>ma_quantityofenvelopes</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofenvelopes</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofenvelopes</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofenvelopes</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{2439089d-82d3-4669-b6ca-85e8b85e985c}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>ma_quantityofboxes</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofboxes</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofboxes</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofboxes</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{dcf3e690-1d1f-4b58-a936-8be7061881c6}">
+          <customControl id="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}">
+            <parameters>
+              <datafieldname>ma_quantityofothers</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofothers</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofothers</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.NumberInput.NumberInputControl">
+            <parameters>
+              <value type="Currency">ma_quantityofothers</value>
+              <step type="Whole.None" static="true">1</step>
+            </parameters>
+          </customControl>
+        </controlDescription>
       </controlDescriptions>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

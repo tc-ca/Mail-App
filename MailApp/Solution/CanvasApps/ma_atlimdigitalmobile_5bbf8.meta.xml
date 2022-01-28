@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>ma_atlimdigitalmobile_5bbf8</Name>
-  <AppVersion>2021-10-14T18:49:22Z</AppVersion>
+  <AppVersion>2022-01-28T16:50:51Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.21094.25.0</CreatedByClientVersion>
-  <MinClientVersion>3.21094.25.0</MinClientVersion>
-  <Tags>{"sp-site-id":"https://034gc.sharepoint.com/sites/ATLIM-IT-IMDigitalTransformation","sp-list-id":"c50289c9-a612-421a-8715-c412f07f1daa","https://034gc.sharepoint.com/sites/ATLIM-IT-IMDigitalTransformation":"c50289c9-a612-421a-8715-c412f07f1daa","primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"24840dea-e300-4ced-8863-a8494b059a03","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.21094.25","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
+  <CreatedByClientVersion>3.22013.7.0</CreatedByClientVersion>
+  <MinClientVersion>3.22013.7.0</MinClientVersion>
+  <Tags>{"sp-site-id":"https://034gc.sharepoint.com/sites/ATLIM-IT-IMDigitalTransformation","sp-list-id":"c50289c9-a612-421a-8715-c412f07f1daa","https://034gc.sharepoint.com/sites/ATLIM-IT-IMDigitalTransformation":"c50289c9-a612-421a-8715-c412f07f1daa","primaryDeviceWidth":"640","primaryDeviceHeight":"1136","sienaVersion":"899fb559-ce2b-4cc7-9175-ca2165d5d5f0","deviceCapabilities":"","supportsPortrait":"true","supportsLandscape":"false","primaryFormFactor":"Phone","publisherVersion":"3.22013.7","minimumRequiredApiVersion":"2.2.0","hasComponent":"true","hasUnlockedComponent":"true","isUnifiedRootApp":"false"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>rgba(0, 176, 240, 1)</BackgroundColor>
@@ -14,7 +14,7 @@
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"7b6b3baf-dda2-4316-aa02-41f10fe9c202":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1527/1.0.1527.2580/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["MyProfileV2","MyProfile"]}}</ConnectionReferences>
+  <ConnectionReferences>{"7b6b3baf-dda2-4316-aa02-41f10fe9c202":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1528/1.0.1528.2589/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["MyProfileV2","MyProfile"]}}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Courier Requests":{"entitySetName":"ma_courierrequests","logicalName":"ma_courierrequest"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"},"Field Sharing":{"entitySetName":"principalobjectattributeaccessset","logicalName":"principalobjectattributeaccess"},"Bulk Delete Failures":{"entitySetName":"bulkdeletefailures","logicalName":"bulkdeletefailure"},"Incoming Mails":{"entitySetName":"ma_incomingmails","logicalName":"ma_incomingmail"},"Accounts":{"entitySetName":"accounts","logicalName":"account"},"Package Trackings":{"entitySetName":"ma_packagetrackings","logicalName":"ma_packagetracking"}}}}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
